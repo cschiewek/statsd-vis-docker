@@ -1,6 +1,6 @@
 from alpine:latest
 
-EXPOSE 8125 8080
+EXPOSE 8125/udp` 8080
 ENV RELEASE statsd-vis-v0.1-linux-amd64
 RUN apk update && \
     apk add ca-certificates wget && \
