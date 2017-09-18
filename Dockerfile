@@ -1,6 +1,5 @@
 from alpine:latest
 
-EXPOSE 8125/udp 8125/tcp 8080
 ENV VERSION 0.1
 ENV RELEASE statsd-vis-v${VERSION}-linux-amd64
 RUN apk update && \
